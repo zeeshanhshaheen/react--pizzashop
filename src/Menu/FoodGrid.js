@@ -8,14 +8,14 @@ export const FoodGrid = styled.div`
   padding-bottom: 40px;
 `;
 
-export const FoodLabel = styled.div`
+export const FoodLabel = styled(Title)`
   position: absolute;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 5px;
 `;
 
-export const Food = styled(Title)`
-height: 100px; 
+export const Food = styled.div`
+height: 130px; 
 padding: 10px; 
 font-size: 20px; 
 background-image: ${({ img }) => `url(${img});`} 
