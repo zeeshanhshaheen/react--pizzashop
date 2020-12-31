@@ -11,7 +11,6 @@ function App() {
       <Navbar />
       <Banner />
       <Menu />
-      <div>Hello</div>
     </>
   );
 }
