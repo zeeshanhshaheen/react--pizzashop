@@ -70,6 +70,7 @@ export function Order({ orders }) {
                   .map((topping) => topping.name)
                   .join(", ")}
               </detailItem>
+              {order.choice && <detailItem>{order.choice}</detailItem>}
             </OrderContainer>
           ))}
           <OrderContainer>
